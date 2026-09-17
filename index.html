@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MNG — барилгын компанийн танилцуулгын жишээ загвар. Барилга угсралт, зураг төсөл, интерьерийн шийдэл.">
+  <meta name="theme-color" content="#20251e">
+  <title>MNG — Ирээдүйг хамтдаа бүтээнэ</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Үндсэн агуулга руу</a>
+  <header class="header">
+    <a class="brand" href="#" aria-label="MNG нүүр хуудас"><span class="brand-mark" aria-hidden="true">Т</span><span>MNG<small>КОНСТРАКШН</small></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Цэс нээх"><span></span><span></span></button>
+    <nav id="navigation" aria-label="Үндсэн цэс"><a href="#about">Бидний тухай</a><a href="#services">Үйлчилгээ</a><a href="#projects">Төслүүд</a><a class="nav-contact" href="#contact">Хамтран ажиллах <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=85" alt="Тэнгэр өөд сүндэрлэх орчин үеийн шилэн барилгууд" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow light"><span class="dot"></span> ИТГЭЛ ДЭЭР СУУРИЛСАН БҮТЭЭН БАЙГУУЛАЛТ</p>
+        <h1 id="hero-title">Бат бөх суурь.<br>Бүтэн <em>ирээдүй.</em></h1>
+        <p class="hero-description">Таны төсөөллийг бодит бүтээн байгуулалт болгоно.<br>Зураг төслөөс түлхүүр гардуулах хүртэл — хамтдаа.</p>
+        <div class="hero-actions"><a class="button yellow" href="#projects">Бидний төслүүд <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">Бидэнтэй танилцах <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-bottom wrap"><span>УЛААНБААТАР, МОНГОЛ УЛС</span><span>ЧАНАР. ХАРИУЦЛАГА. ИТГЭЛ.</span><a href="#about" aria-label="Доош гүйлгэж танилцах">↓</a></div>
+      <div class="image-caption">Архитектурын жишээ зураг / Unsplash</div>
+    </section>
+
+    <section class="stats wrap" aria-label="Компанийн жишээ үзүүлэлтүүд">
+      <div><strong>15<span>+</span></strong><p>Жилийн туршлага</p></div><div><strong>48<span>+</span></strong><p>Хэрэгжүүлсэн төсөл</p></div><div><strong>120<span>+</span></strong><p>Мэргэжлийн ажилтан</p></div><div class="stats-message"><span class="mini-cross" aria-hidden="true">✳</span><p>Өнөөдөр бүтээж,<br><b>маргаашийн үнэ цэнийг бий болгоно.</b></p></div>
+    </section>
+
+    <section class="about section wrap" id="about">
+      <div class="about-visual"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1100&q=85" alt="Орчин үеийн барилгын архитектурын жишээ" loading="lazy"><div class="image-label"><span>01 / БИДНИЙ ТУХАЙ</span><span aria-hidden="true">↗</span></div></div>
+      <div class="about-copy"><p class="eyebrow">БИД ЮУНД ИТГЭДЭГ ВЭ?</p><h2>Зөвхөн барилга биш.<br><span class="muted">Үнэ цэнийг бүтээнэ.</span></h2><p>Сайн барилга бат бөх сууриас эхэлдэг. Харин сайн хамтын ажиллагаа итгэлцлээс эхэлнэ. Бид энэ хоёр зарчмыг ажил бүрийнхээ үндэс болгодог.</p><p>MNG Констракшн нь орон сууц, оффис, үйлдвэрлэлийн барилгын төслийг нэгдсэн удирдлага, инженерийн оновчтой шийдлээр хэрэгжүүлэхийг зорьдог.</p><div class="values"><span><i aria-hidden="true">✓</i> Чанартай гүйцэтгэл</span><span><i aria-hidden="true">✓</i> Ил тод хамтын ажиллагаа</span><span><i aria-hidden="true">✓</i> Хариуцлагатай төлөвлөлт</span><span><i aria-hidden="true">✓</i> Аюулгүй ажиллагаа</span></div><a class="under-link" href="#contact">Төслийнхөө талаар ярилцъя <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="services section" id="services"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">БИДНИЙ ҮЙЛЧИЛГЭЭ</p><h2>Нэг баг.<br>Цогц шийдэл.</h2></div><p>Төслийн үе шат бүрд таны хажууд.<br>Санаанаас эхлээд ашиглалтад оруулах хүртэл.</p></div>
+      <div class="service-grid">
+        <a class="service-card" href="#contact"><div class="service-top"><span class="line-icon" aria-hidden="true">▥</span><span>01</span></div><h3>Барилга угсралт</h3><p>Орон сууц, оффис, үйлчилгээ болон үйлдвэрлэлийн барилгын иж бүрэн гүйцэтгэл.</p><span class="service-bottom">Дэлгэрэнгүй ярилцах <b aria-hidden="true">↗</b></span></a>
+        <a class="service-card" href="#contact"><div class="service-top"><span class="line-icon" aria-hidden="true">⌑</span><span>02</span></div><h3>Зураг төсөл</h3><p>Таны хэрэгцээнд нийцсэн архитектур, бүтээц болон инженерийн шугам сүлжээний шийдэл.</p><span class="service-bottom">Дэлгэрэнгүй ярилцах <b aria-hidden="true">↗</b></span></a>
+        <a class="service-card" href="#contact"><div class="service-top"><span class="line-icon" aria-hidden="true">▱</span><span>03</span></div><h3>Интерьер, засал</h3><p>Гоо зүй, тав тух, хэрэглээг хослуулсан дотоод орон зайн төлөвлөлт, заслын ажил.</p><span class="service-bottom">Дэлгэрэнгүй ярилцах <b aria-hidden="true">↗</b></span></a>
+        <a class="service-card" href="#contact"><div class="service-top"><span class="line-icon" aria-hidden="true">⊞</span><span>04</span></div><h3>Төслийн удирдлага</h3><p>Төсөв, хугацаа, чанарын хяналтыг нэгтгэсэн зохион байгуулалт, мэргэжлийн зөвлөх үйлчилгээ.</p><span class="service-bottom">Дэлгэрэнгүй ярилцах <b aria-hidden="true">↗</b></span></a>
+      </div>
+    </div></section>
+
+    <section class="projects section wrap" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">БҮТЭЭН БАЙГУУЛАЛТ</p><h2>Бидний ажлын<br>илэрхийлэл.</h2></div><div class="filters" role="group" aria-label="Төслийн ангилал"><button class="active" data-filter="all" aria-pressed="true">Бүгд</button><button data-filter="residential" aria-pressed="false">Орон сууц</button><button data-filter="commercial" aria-pressed="false">Оффис, үйлчилгээ</button></div></div>
+      <p class="project-note">Доорх төслүүд болон үзүүлэлтүүд нь загварын жишээ мэдээлэл болно.</p>
+      <div class="project-grid">
+        <article class="project-card" data-category="residential"><div class="project-image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="Гэрэлтэй, орчин үеийн орон сууцны интерьерийн жишээ" loading="lazy"><span class="project-tag">ОРОН СУУЦ</span><a href="#contact" class="project-arrow" aria-label="Нарлаг өргөө төслийн талаар холбогдох">↗</a></div><div class="project-info"><div><h3>Нарлаг өргөө</h3><p>Орон сууцны цогцолбор · Улаанбаатар</p></div><span>2025</span></div></article>
+        <article class="project-card" data-category="commercial"><div class="project-image"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Орчин үеийн оффисын дотоод орон зайн жишээ" loading="lazy"><span class="project-tag">ОФФИС, ҮЙЛЧИЛГЭЭ</span><a href="#contact" class="project-arrow" aria-label="MNG бизнес төв төслийн талаар холбогдох">↗</a></div><div class="project-info"><div><h3>MNG бизнес төв</h3><p>Оффис, үйлчилгээний төв · Улаанбаатар</p></div><span>2024</span></div></article>
+      </div><p id="filter-status" class="sr-only" aria-live="polite">2 төсөл харагдаж байна.</p>
+    </section>
+
+    <section class="process section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow light">ХАМТЫН АЖИЛЛАГАА</p><h2>Таны санаа.<br>Бидний дараагийн бүтээл.</h2></div><p>Алхам бүр нь ойлгомжтой.<br>Шийдвэр бүрийг хамтдаа.</p></div><div class="process-grid"><div><span>01</span><h3>Сонсож, ойлгоно</h3><p>Таны хүсэл, хэрэгцээ, зорилгыг хамтдаа тодорхойлно.</p></div><div><span>02</span><h3>Төлөвлөж, шийднэ</h3><p>Зураг төсөл, төсөв, ажлын хуваарийг боловсруулна.</p></div><div><span>03</span><h3>Чанартай бүтээнэ</h3><p>Үе шат бүрд хяналт тавьж, явцыг тогтмол мэдээлнэ.</p></div><div><span>04</span><h3>Хүлээлгэн өгнө</h3><p>Гүйцэтгэлийг хамтдаа шалгаж, бүтээлээ хүлээлгэн өгнө.</p></div></div></div></section>
+
+    <section class="contact section wrap" id="contact"><div class="contact-copy"><p class="eyebrow">ХАМТДАА ЭХЭЛЦГЭЭЕ</p><h2>Танд санаа бий юу?<br><span class="muted">Бидэнд шийдэл бий.</span></h2><p>Төслийнхөө талаар товч бичээрэй. Мэдээллээ текст файл болгон татаж аваад, сонгосон компанид илгээх боломжтой.</p><div class="contact-detail"><span>БАЙРШИЛ</span><p>Улаанбаатар, Монгол Улс</p></div><div class="demo-note"><span aria-hidden="true">↗</span><p>Энэ бол танилцуулгын жишээ сайт. Компанийн жинхэнэ утас, имэйл, хаягийг энд байрлуулна.</p></div></div>
+      <form id="inquiry-form"><div class="form-row"><label>Таны нэр <span>*</span><input name="name" autocomplete="name" placeholder="Нэрээ оруулна уу" required maxlength="100"></label><label>Утасны дугаар <span>*</span><input name="phone" type="tel" autocomplete="tel" placeholder="Жишээ: 9911 2233" pattern="[+0-9 \(\)\-]{6,25}" title="6–25 тэмдэгттэй утасны дугаар оруулна уу" required></label></div><label>Сонирхож буй үйлчилгээ<select name="service"><option>Барилга угсралт</option><option>Зураг төсөл</option><option>Интерьер, засал</option><option>Төслийн удирдлага</option><option>Бусад</option></select></label><label>Төслийн тухай <span>*</span><textarea name="message" rows="4" placeholder="Төслийн төрөл, байршил, талбай болон бусад мэдээлэл…" required maxlength="3000"></textarea></label><button class="button dark" type="submit">Хүсэлтээ татаж авах <span aria-hidden="true">↗</span></button><p class="form-note">Мэдээлэл серверт илгээгдэхгүй. Таны төхөөрөмжид .txt файл татагдана.</p><p id="form-status" role="status"></p></form>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-top"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">Т</span><span>MNG<small>КОНСТРАКШН</small></span></a><p>Итгэл дээр суурилж,<br>ирээдүйг хамтдаа бүтээнэ.</p><a href="#main">Дээш буцах ↑</a></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> MNG Констракшн · Жишээ загвар</span><span>БАТ БӨХ СУУРЬ. БҮТЭН ИРЭЭДҮЙ.</span></div></footer>
+</body>
+</html>
