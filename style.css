@@ -16,3 +16,6 @@
 @media(max-width:380px){.values,.form-row{grid-template-columns:1fr}.form-row{gap:0}.service-grid{grid-template-columns:1fr}.service-card{border-right:0;border-bottom:1px solid #d1d4c7}.service-card p{min-height:0}.hero h1{font-size:40px}.hero .eyebrow{font-size:7px}.stats .stats-message{gap:8px}.mini-cross{font-size:25px}.project-image{height:260px}}
 .render-image{height:auto;aspect-ratio:3/2}.render-image img{filter:none;object-fit:contain}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+/* Portfolio credit. */
+.footer-bottom{flex-wrap:wrap}.footer-bottom .site-credit{text-decoration:underline;text-underline-offset:4px;line-height:1.7}
